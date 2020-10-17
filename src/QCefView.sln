@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcef_dll_wrapper", "libcef_dll_wrapper\libcef_dll_wrapper.vcxproj", "{FE4B1D0C-52D1-3127-B69F-5830E2C6C8F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QCefProto", "QCefProto\QCefProto.vcxproj", "{3BE3BC59-87BC-3B58-8E9B-F38F9B4EC0E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE4B1D0C-52D1-3127-B69F-5830E2C6C8F8} = {FE4B1D0C-52D1-3127-B69F-5830E2C6C8F8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QCefView", "QCefView\QCefView.vcxproj", "{3820A41B-BDA2-4BF0-B352-51590AEC6D3E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QCefViewTest", "QCefViewTest\QCefViewTest.vcxproj", "{29B1FA35-85E8-49B2-8393-F24280867C37}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QCefWing", "QCefWing\QCefWing.vcxproj", "{BB768261-D526-3530-94A3-51BB9EFEF5EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3BE3BC59-87BC-3B58-8E9B-F38F9B4EC0E3} = {3BE3BC59-87BC-3B58-8E9B-F38F9B4EC0E3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE4B1D0C-52D1-3127-B69F-5830E2C6C8F8}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE4B1D0C-52D1-3127-B69F-5830E2C6C8F8}.Debug|x86.Build.0 = Debug|Win32
+		{FE4B1D0C-52D1-3127-B69F-5830E2C6C8F8}.Release|x86.ActiveCfg = Release|Win32
+		{FE4B1D0C-52D1-3127-B69F-5830E2C6C8F8}.Release|x86.Build.0 = Release|Win32
+		{3BE3BC59-87BC-3B58-8E9B-F38F9B4EC0E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BE3BC59-87BC-3B58-8E9B-F38F9B4EC0E3}.Debug|x86.Build.0 = Debug|Win32
+		{3BE3BC59-87BC-3B58-8E9B-F38F9B4EC0E3}.Release|x86.ActiveCfg = Release|Win32
+		{3BE3BC59-87BC-3B58-8E9B-F38F9B4EC0E3}.Release|x86.Build.0 = Release|Win32
+		{3820A41B-BDA2-4BF0-B352-51590AEC6D3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{3820A41B-BDA2-4BF0-B352-51590AEC6D3E}.Debug|x86.Build.0 = Debug|Win32
+		{3820A41B-BDA2-4BF0-B352-51590AEC6D3E}.Release|x86.ActiveCfg = Release|Win32
+		{3820A41B-BDA2-4BF0-B352-51590AEC6D3E}.Release|x86.Build.0 = Release|Win32
+		{29B1FA35-85E8-49B2-8393-F24280867C37}.Debug|x86.ActiveCfg = Debug|Win32
+		{29B1FA35-85E8-49B2-8393-F24280867C37}.Debug|x86.Build.0 = Debug|Win32
+		{29B1FA35-85E8-49B2-8393-F24280867C37}.Release|x86.ActiveCfg = Release|Win32
+		{29B1FA35-85E8-49B2-8393-F24280867C37}.Release|x86.Build.0 = Release|Win32
+		{BB768261-D526-3530-94A3-51BB9EFEF5EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB768261-D526-3530-94A3-51BB9EFEF5EB}.Debug|x86.Build.0 = Debug|Win32
+		{BB768261-D526-3530-94A3-51BB9EFEF5EB}.Release|x86.ActiveCfg = Release|Win32
+		{BB768261-D526-3530-94A3-51BB9EFEF5EB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13728E78-ADF7-3EB5-B2B2-B2554B943887}
+	EndGlobalSection
+EndGlobal

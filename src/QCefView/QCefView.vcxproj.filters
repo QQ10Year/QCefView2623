@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\CefViewBrowserApp">
+      <UniqueIdentifier>{33a200a7-4c2d-4397-8132-14c131bbfd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CefViewBrowserApp\BrowserDelegates">
+      <UniqueIdentifier>{6f428913-dd45-4547-bd9f-6b9009ede4f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CCefManager.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CCefWindow.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\bin\include\QCefEvent.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\bin\include\QCefView.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCefSetting.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QCefDownloadHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CefViewBrowserApp\QCefQueryHandler.h">
+      <Filter>Source Files\CefViewBrowserApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CefViewBrowserApp\QCefViewBrowserApp.h">
+      <Filter>Source Files\CefViewBrowserApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CefViewBrowserApp\QCefViewBrowserHandler.h">
+      <Filter>Source Files\CefViewBrowserApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CefViewBrowserApp\BrowserDelegates\QCefViewDefaultBrowserDelegate.h">
+      <Filter>Source Files\CefViewBrowserApp\BrowserDelegates</Filter>
+    </ClInclude>
+    <ClInclude Include="QCefSetting.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bin\include\QCefProtocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bin\include\QCefQuery.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCefManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCefSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCefWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QCefDownloadHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QCefEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QCefQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QCefSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QCefView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewBrowserApp\QCefQueryHandler.cpp">
+      <Filter>Source Files\CefViewBrowserApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewBrowserApp\QCefViewBrowserApp.cpp">
+      <Filter>Source Files\CefViewBrowserApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewBrowserApp\QCefViewBrowserAppHelper.cpp">
+      <Filter>Source Files\CefViewBrowserApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewBrowserApp\QCefViewBrowserHandler.cpp">
+      <Filter>Source Files\CefViewBrowserApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewBrowserApp\BrowserDelegates\QCefViewDefaultBrowserDelegate.cpp">
+      <Filter>Source Files\CefViewBrowserApp\BrowserDelegates</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

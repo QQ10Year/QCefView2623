@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="QCefWing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewRenderApp\QCefViewRenderApp.cpp">
+      <Filter>Source Files\CefViewRenderApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewRenderApp\RenderDelegates\QCefClient.cpp">
+      <Filter>Source Files\CefViewRenderApp\RenderDelegates</Filter>
+    </ClCompile>
+    <ClCompile Include="CefViewRenderApp\RenderDelegates\QCefViewDefaultRenderDelegate.cpp">
+      <Filter>Source Files\CefViewRenderApp\RenderDelegates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QCefWing.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CefViewRenderApp\QCefViewRenderApp.h">
+      <Filter>Source Files\CefViewRenderApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CefViewRenderApp\RenderDelegates\QCefClient.h">
+      <Filter>Source Files\CefViewRenderApp\RenderDelegates</Filter>
+    </ClInclude>
+    <ClInclude Include="CefViewRenderApp\RenderDelegates\QCefViewDefaultRenderDelegate.h">
+      <Filter>Source Files\CefViewRenderApp\RenderDelegates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bin\include\CefBaseRefCounted.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B6A35FDA-9F11-3F60-A53D-159E87584116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CefViewRenderApp">
+      <UniqueIdentifier>{13397A52-FCE5-34A0-8B13-B4AC96172243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CefViewRenderApp\RenderDelegates">
+      <UniqueIdentifier>{703F500B-7B5B-3C6D-8973-4FF244FB422D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{75842a29-24cd-4807-a7b0-055c121e22aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.ico">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QCefWing.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
