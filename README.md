@@ -1,1 +1,1 @@
-编译cef2623版本QCefView，支持xp操作系统使用cef
+官网的QCefView支持内核chromium76版本的cef。改成支持内核chromium49版本cef2623。
